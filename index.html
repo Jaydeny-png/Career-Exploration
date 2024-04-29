@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,15 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+
+
+
+
 </head>
 
+
 <body>
+
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -45,98 +52,153 @@
     <!-- Navbar END -->
 
 
-    <section class="bg-primary py-5 text-center">
+
+
+    <section class="jumbotron">
         <div class="container">
-            <h1 class="display-5 text-white">Optometry</h1>
+            <h1 class="display-4">Optometry</h1>
+            <p class="lead">Exploring the World of Eye Care</p>
         </div>
     </section>
 
-    <section id="Early" class="bg-light py-5">
+
+    <section id="Early" class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
-                    <h2 class="text-center mb-4">Description</h2>
-                    <p class="text-center">Optometry is a branch of healthcare focused on eye care. Optometrists, also
+                    <h2 class="section-title mb-4">Description</h2>
+                    <p class="section-description">Optometry is a branch of healthcare focused on eye care.
+                        Optometrists, also
                         known as eye doctors, help people maintain good vision and eye health by testing their vision,
                         prescribing glasses or contact lenses, and diagnosing and treating eye diseases like glaucoma
                         and cataracts. Their work is essential as it improves people's quality of life by helping them
-                        see clearly, preventing vision loss, and
-                        providing eye care to underserved communities.</p>
+                        see clearly, preventing vision loss, and providing eye care to underserved communities.</p>
                 </div>
             </div>
         </div>
     </section>
+
 
     <section id="Acc" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-4">Education</h2>
-            <div class="row">
-
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/9d1j859yHGo?si=4PabOlY7apShJa9o"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-
-            </div>
-        </div>
-    </section>
-
-    <section id="Contr" class="bg-light py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <h2 class="text-center mb-4">Skills</h2>
-                    <p class="text-center">Optometry requires a range of skills to provide effective patient care.
-                        Optometry requires strong communication and interpersonal skills, clinical proficiency,
-                        attention to detail, problem-solving ability, empathy, adherence to ethical standards, and
-                        commitment to continuous learning. </p>
-
-                    <ol>
-                        <li>
-                            <strong>Communication Skills:</strong><br>
-                            - Ability to effectively communicate with patients to understand their concerns and explain
-                            diagnoses and treatment plans in an understandable manner.
-                        </li>
-                        <li>
-                            <strong>Clinical Skills:</strong><br>
-                            - Proficiency in performing comprehensive eye examinations, including visual acuity tests,
-                            refraction, and eye health evaluations.
-                        </li>
-                        <li>
-                            <strong>Diagnostic Skills:</strong><br>
-                            - Ability to diagnose and manage various eye conditions and diseases, such as glaucoma,
-                            cataracts, and macular degeneration.
-                        </li>
-                        <li>
-                            <strong>Technical Skills:</strong><br>
-                            - Competence in using specialized equipment and instruments for eye examinations and
-                            diagnostic procedures.
-                        </li>
-                        <li>
-                            <strong>Attention to Detail:</strong><br>
-                            - Ability to accurately assess and record patient information and test results.
-                        </li>
-                    </ol>
-
-
+            <h2 class="section-title text-center mb-4">Education</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <iframe class="border border-dark rounded-3 border-2" width="100%" height="315"
+                        src="https://www.youtube.com/embed/9d1j859yHGo?si=4PabOlY7apShJa9o" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="Life" class="py-5">
+
+
+
+    <section id="Contr" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-4">Related Education</h2>
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="card">
-                        <img src="Young_Beethoven-Mahler.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Education</h5>
-                            <p class="card-text">Ludwig van Beethoven was born in Bonn, Germany, in 1770. He was the
-                                eldest of three children</p>
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title text-center mb-4">Skills</h2>
+                    <p class="section-description text-center">Optometry requires a range of skills to provide effective
+                        patient
+                        care. Optometrists need strong communication and interpersonal skills, clinical proficiency,
+                        attention to
+                        detail, problem-solving ability, empathy, adherence to ethical standards, and commitment to
+                        continuous
+                        learning.</p>
+
+
+                    <div class="accordion" id="skillsAccordion">
+                        <!-- Communication Skills -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="commSkillHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#commSkillCollapse" aria-expanded="false"
+                                    aria-controls="commSkillCollapse">
+                                    Communication Skills
+                                </button>
+                            </h2>
+                            <div id="commSkillCollapse" class="accordion-collapse collapse"
+                                aria-labelledby="commSkillHeading" data-bs-parent="#skillsAccordion">
+                                <div class="accordion-body">
+                                    <p>Ability to effectively communicate with patients to understand their concerns and
+                                        explain diagnoses
+                                        and treatment plans in an understandable manner.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Clinical Skills -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="clinicSkillHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#clinicSkillCollapse" aria-expanded="false"
+                                    aria-controls="clinicSkillCollapse">
+                                    Clinical Skills
+                                </button>
+                            </h2>
+                            <div id="clinicSkillCollapse" class="accordion-collapse collapse"
+                                aria-labelledby="clinicSkillHeading" data-bs-parent="#skillsAccordion">
+                                <div class="accordion-body">
+                                    <p>Proficiency in performing comprehensive eye examinations, including visual acuity
+                                        tests,
+                                        refraction, and eye health evaluations.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Diagnostic Skills -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="diagSkillHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#diagSkillCollapse" aria-expanded="false"
+                                    aria-controls="diagSkillCollapse">
+                                    Diagnostic Skills
+                                </button>
+                            </h2>
+                            <div id="diagSkillCollapse" class="accordion-collapse collapse"
+                                aria-labelledby="diagSkillHeading" data-bs-parent="#skillsAccordion">
+                                <div class="accordion-body">
+                                    <p>Ability to diagnose and manage various eye conditions and diseases, such as
+                                        glaucoma, cataracts,
+                                        and macular degeneration.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Technical Skills -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="techSkillHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#techSkillCollapse" aria-expanded="false"
+                                    aria-controls="techSkillCollapse">
+                                    Technical Skills
+                                </button>
+                            </h2>
+                            <div id="techSkillCollapse" class="accordion-collapse collapse"
+                                aria-labelledby="techSkillHeading" data-bs-parent="#skillsAccordion">
+                                <div class="accordion-body">
+                                    <p>Competence in using specialized equipment and instruments for eye examinations
+                                        and diagnostic
+                                        procedures.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Attention to Detail -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="detailSkillHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#detailSkillCollapse" aria-expanded="false"
+                                    aria-controls="detailSkillCollapse">
+                                    Attention to Detail
+                                </button>
+                            </h2>
+                            <div id="detailSkillCollapse" class="accordion-collapse collapse"
+                                aria-labelledby="detailSkillHeading" data-bs-parent="#skillsAccordion">
+                                <div class="accordion-body">
+                                    <p>Ability to accurately assess and record patient information and test results.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -144,16 +206,54 @@
         </div>
     </section>
 
-    <section id="Vid" class="bg-light py-5">
+
+    <section id="Life" class="py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <h2 class="text-center mb-4">Earnings</h2>
-                    <p class="text-center">The average salary for optometrists in the United States is around $118,000
-                        per year. However, earnings can vary depending on factors such as location, experience, and the
-                        type of practice. Those in private practice or who own their own practices may earn more than
-                        those working in retail settings or for healthcare organizations. Additionally, optometrists who
-                        specialize in areas such as pediatrics or low vision may command higher salaries.</p>
+            <h2 class="section-title text-center mb-4">Related Education</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="biology-presence-in-science-fields.jpeg" class="card-img-top" alt="hi">
+                        <div class="card-body">
+                            <h5 class="card-title">Bachelor of Science in Biology, Chemistry, or a related field:</h5>
+                            <p class="card-text">These undergraduate degrees provide a solid foundation in the sciences,
+                                which is essential for understanding the biological and chemical aspects of optometry.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="IMG_3606-1024x764.jpg" class="card-img-top" alt="hi">
+                        <div class="card-body">
+                            <h5 class="card-title">Doctor of Optometry (O.D.):</h5>
+                            <p class="card-text">This is the primary professional degree required to become
+                                an optometrist. The program typically takes four years to complete and includes both
+                                classroom instruction and clinical experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Vid" class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h2 class="card-title text-center mb-4">Earnings</h2>
+                            <p class="card-text">The average salary for optometrists in the United States is around
+                                $118,000 per year.
+                                However, earnings can vary depending on factors such as location, experience, and the
+                                type of practice.
+                                Those in private practice or who own their own practices may earn more than those
+                                working in retail
+                                settings or for healthcare organizations. Additionally, optometrists who specialize in
+                                areas such as
+                                pediatrics or low vision may command higher salaries.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -163,18 +263,20 @@
 
 
     <!-- Footer -->
-    <footer class="bg-dark text-light py-4">
-        <div class="container text-center">
-            <p>&copy; 2024 Carreer Exploration | Designed by JAYDEN</p>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Career Exploration | Designed by JAYDEN</p>
             <a class="btn btn-outline-light" href="https://github.com/Jaydeny-png"><i
                     class="fab fa-github me-2"></i>GitHub</a>
         </div>
     </footer>
     <!-- Footer END -->
 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 </body>
+
 
 </html>
